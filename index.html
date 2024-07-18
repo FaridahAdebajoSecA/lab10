@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSW Services</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+         body {
+            background-color: white; 
+            color: white; 
+        }
+
+        .custom-navbar {
+            background-color: #343a40; 
+            font-weight: bold;
+        }
+
+        .custom-navbar .nav-link,
+        .custom-navbar .navbar-brand {
+            color: white !important;
+        }
+
+        .custom-navbar .nav-link:hover {
+            color: #ffefd5 !important; 
+        }
+
+        .custom-footer {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .jumbotron-custom {
+            background: linear-gradient(135deg, #4169e1, #7b68ee); 
+            text-align: center;
+        }
+
+        .jumbotron-custom h1 {
+            font-size: 3rem;
+        }
+
+        .jumbotron-custom p {
+            font-size: 1.5rem;
+        }
+
+        .btn-primary-custom {
+            background-color: #343a40;
+            border: none;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: #212529; 
+        }
+
+        .card {
+            background-color: #444;
+            color: white; 
+        }
+        </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <a class="navbar-brand" href="#">PSW Services</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+  <div class="jumbotron mt-4 jumbotron-custom">
+      <h1 class="display-4">Welcome to PSW Services</h1>
+      <p class="lead">Providing compassionate care and support to those in need.</p>
+      <hr class="my-4">
+      <p>Our dedicated PSWs are here to assist you with daily activities, ensuring comfort and well-being.</p>
+      <a class="btn btn-primary btn-lg btn-primary-custom" href="#contact" role="button">Contact Us</a>
+  </div>
+</div>
+<div class="container" id="services">
+  <h2 class="text-center my-4">Our Services</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card text-center">
+              <div class="card-body">
+                  <i class="fa fa-heartbeat fa-2x" aria-hidden="true"></i>
+                  <h5 class="card-title">Personal Care</h5>
+                  <p class="card-text">Assisting with daily activities such as bathing, grooming, and dressing.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card text-center">
+              <div class="card-body">
+                  <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                  <h5 class="card-title">Meal Preparation</h5>
+                  <p class="card-text">Preparing nutritious meals to ensure a healthy diet.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card text-center">
+              <div class="card-body">
+                  <i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i>
+                  <h5 class="card-title">Companionship</h5>
+                  <p class="card-text">Providing companionship and emotional support.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="container" id="portfolio">
+  <h2 class="text-center my-4">Portfolio</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card">
+              <img src="https://cdn.prod.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b5741186fc37_ABM%20College%20PSW%20blog%20main.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Description of Project 1: Our team provided comprehensive personal care services to elderly clients, assisting with their daily activities and ensuring their well-being.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="https://pharmamedical.ca/wp-content/uploads/2022/08/psw-long-term.png" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Description of Project 2: We successfully implemented meal preparation services for clients with specific dietary needs, creating customized meal plans to promote their health.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card">
+              <img src="https://healthsciences.humber.ca/assets/images/new_resources/labs/The-Apartment-PSW-Nursing-600x400.png" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Description of Project 3: Our companionship services have made a significant impact by providing emotional support and social interaction to clients, enhancing their quality of life.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="container" id="contact">
+  <h2 class="text-center my-4">Contact Us</h2>
+  <form>
+      <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-primary-custom">Submit</button>
+  </form>
+</div>
+<footer class="footer custom-footer text-center mt-4">
+  <div class="container">
+      <h4><span class="text-muted">© 2024 PSW Services. All rights reserved.</span></h4>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
